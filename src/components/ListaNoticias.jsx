@@ -1,6 +1,5 @@
 
-
-const Noticia = () => {
+const ListaNoticias = () => {
     return (
         <div>
             
@@ -8,4 +7,4 @@ const Noticia = () => {
     );
 };
 
-export default Noticia;
+export default ListaNoticias;
