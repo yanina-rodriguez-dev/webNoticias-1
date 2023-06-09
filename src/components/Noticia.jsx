@@ -1,11 +1,14 @@
+import React from "react";
 
 
-const Noticia = () => {
+const Noticia = ({ noticia }) => {
     return (
-        <div>
-            
-        </div>
+      <Card>
+        <Card.Body>
+          <Card.Title>{noticia.title}</Card.Title>
+          <Card.Text>{noticia.description}</Card.Text>
+        </Card.Body>
+      </Card>
     );
-};
-
-export default Noticia;
+  };
+  export default Noticia;
