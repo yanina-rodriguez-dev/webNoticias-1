@@ -1,10 +1,13 @@
+import { Card } from "react-bootstrap";
 import Noticia from "./Noticia";
 
 const ListaNoticias = ({ noticias }) => {
   return (
     <div>
       {noticias.map((noticia) => (
-        <Noticia key={noticia.id} noticia={noticia} />
+        <Card key={noticia.id}>
+          <Noticia noticia={noticia} />
+        </Card>
       ))}
     </div>
   );

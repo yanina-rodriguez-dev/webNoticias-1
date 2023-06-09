@@ -1,6 +1,6 @@
 import { Form } from "react-bootstrap";
 import { useState, useEffect } from "react";
-import ListaNoticias from "ListaNoticias";
+import ListaNoticias from "./ListaNoticias";
 
 const Formulario = () => {
   const [categoria, setCategoria] = useState("")
@@ -33,7 +33,7 @@ const consultarAPI = async ()=>{
         <option value="food">Comida</option>
         <option value="Csience">Ciencia</option>
       </Form.Select>
-      <ListaNoticias noticias={noticias}></ListaNoticias>
+      <ListaNoticias noticias={noticia}></ListaNoticias>
     </section>
   );
 };
