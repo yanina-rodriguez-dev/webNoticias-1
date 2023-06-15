@@ -7,7 +7,6 @@ import Noticia from "./Noticia";
 const Formulario = () => {
 //   const express = require('express');
 // const cors = require('cors');
-
 // const app = express();
 // app.use(cors());
   const [categoria, setCategoria] = useState("");
